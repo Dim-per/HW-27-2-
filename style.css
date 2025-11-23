@@ -1,0 +1,36 @@
+.sibe-menu {
+    position: fixed;
+    top: 0;
+    left: -190px; /* спрятано */
+    width: 220px;
+    height: 100vh;
+    background: #777;
+    transition: 0.3s;
+    border-right: 3px solid #555;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+.sibe-menu:hover {
+left: 0;
+}
+.label {
+    position: absolute;
+    right: -50px;
+    bottom: 850px;
+    transform: rotate(90deg);
+     letter-spacing: 4px;
+     font-weight: bold;
+}
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+li:hover {
+    color: orange;
+}
+.sibe-menu:hover .label {
+    opacity: 0;
+    transition: 0.5s;
+}
