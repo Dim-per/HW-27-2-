@@ -18,10 +18,12 @@ left: 0;
 .label {
     position: absolute;
     right: -50px;
-    bottom: 850px;
+    bottom: 470px;
     transform: rotate(90deg);
      letter-spacing: 4px;
      font-weight: bold;
+   
+;
 }
 li {
     margin-top: 10px;
